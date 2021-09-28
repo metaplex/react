@@ -1,0 +1,47 @@
+# Package manager
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Dependencies
+node_modules/
+
+# ESLint
+.eslintcache
+
+# Build and test
+dist/
+build/
+lib/
+coverage/
+
+# JetBrains
+.idea/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Misc
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Cache
+.cache/
+
+# Env
+*keypair.json
+
