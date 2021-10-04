@@ -6,7 +6,7 @@
     "/dist",
     "/src"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Metaplex React SDK",
   "keywords": [
@@ -44,6 +44,8 @@
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
     "@commitlint/config-conventional": "^13.2.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
     "@typescript-eslint/eslint-plugin": "^4.31.2",
     "@typescript-eslint/parser": "^4.31.2",
     "eslint": "^7.32.0",

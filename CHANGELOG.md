@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/metaplex/react/compare/v1.0.0...v1.0.1) (2021-10-04)
+
+
+### Bug Fixes
+
+* fix version bump and remove dist ([#8](https://github.com/metaplex/react/issues/8)) ([a227584](https://github.com/metaplex/react/commit/a227584347cec830e8da2bb1e89a44ef8f459b58))
+
 # 1.0.0 (2021-10-04)
 
 
