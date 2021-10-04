@@ -255,7 +255,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5":
+"@babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5":
   version: 7.15.4
   resolution: "@babel/runtime@npm:7.15.4"
   dependencies:
@@ -460,17 +460,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metaplex/js@link:../metaplex-js/api::locator=%40metaplex%2Freact%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@metaplex/js@link:../metaplex-js/api::locator=%40metaplex%2Freact%40workspace%3A."
+"@metaplex/js@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@metaplex/js@npm:1.0.0"
+  dependencies:
+    "@solana/spl-token": ^0.1.8
+    "@solana/web3.js": ^1.24.1
+    "@types/bs58": ^4.0.1
+    axios: ^0.21.4
+    bn.js: ^5.2.0
+    borsh: ^0.4.0
+    bs58: ^4.0.1
+    buffer: ^6.0.3
+    crypto-hash: ^1.3.0
+  checksum: 0806033924d41a47739279c32ae1259e8dc05c57c6ffb1561970ee754848bb6efd19d4eb1c96e3435cabfac5ad7ed762740a0f875d2cbe2da077b018d83fed06
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@metaplex/react@workspace:.":
   version: 0.0.0-use.local
   resolution: "@metaplex/react@workspace:."
   dependencies:
-    "@metaplex/js": "link:../metaplex-js/api"
+    "@metaplex/js": ^1.0.0
     "@solana/wallet-adapter-base": ^0.6.0
     "@solana/wallet-adapter-react": ^0.12.2
     "@solana/wallet-adapter-wallets": ^0.10.0
@@ -1260,6 +1271,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@solana/spl-token@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@solana/spl-token@npm:0.1.8"
+  dependencies:
+    "@babel/runtime": ^7.10.5
+    "@solana/web3.js": ^1.21.0
+    bn.js: ^5.1.0
+    buffer: 6.0.3
+    buffer-layout: ^1.2.0
+    dotenv: 10.0.0
+  checksum: be4971c4af9c56fd30353356d8ca404b4460eb37806499ab1257e7d77afa56f89149cfe03c41a0f8908f50e9c421c5b805502857455281e8d3088a2eae1c3297
+  languageName: node
+  linkType: hard
+
 "@solana/wallet-adapter-base@npm:^0.6.0":
   version: 0.6.0
   resolution: "@solana/wallet-adapter-base@npm:0.6.0"
@@ -1440,6 +1465,28 @@ __metadata:
   peerDependencies:
     "@solana/wallet-adapter-base": ^0.6.0
   checksum: 0c9e691751605912d9a4ef77e54b77ec9ff8c0d70e22c7ed36ffb51dc553321a8fd862b380600ae47e2831a6725d91367a0ff267bad6642144d63b06c903214d
+  languageName: node
+  linkType: hard
+
+"@solana/web3.js@npm:^1.21.0, @solana/web3.js@npm:^1.24.1":
+  version: 1.29.2
+  resolution: "@solana/web3.js@npm:1.29.2"
+  dependencies:
+    "@babel/runtime": ^7.12.5
+    "@solana/buffer-layout": ^3.0.0
+    bn.js: ^5.0.0
+    borsh: ^0.4.0
+    bs58: ^4.0.1
+    buffer: 6.0.1
+    cross-fetch: ^3.1.4
+    crypto-hash: ^1.2.2
+    jayson: ^3.4.4
+    js-sha3: ^0.8.0
+    rpc-websockets: ^7.4.2
+    secp256k1: ^4.0.2
+    superstruct: ^0.14.2
+    tweetnacl: ^1.0.0
+  checksum: 6b3821ffc52e17bcb44b35ae792cdb7f81eafdd86fc31d8a622d1cd53cc750d14ef1409211cb82902cdcb8b57f62b491d05bcc949dd43f3e12d45897b53c9d85
   languageName: node
   linkType: hard
 
@@ -2282,7 +2329,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.21.0":
+"axios@npm:^0.21.0, axios@npm:^0.21.4":
   version: 0.21.4
   resolution: "axios@npm:0.21.4"
   dependencies:
@@ -2388,7 +2435,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bn.js@npm:^5.0.0, bn.js@npm:^5.1.1":
+"bn.js@npm:^5.0.0, bn.js@npm:^5.1.0, bn.js@npm:^5.1.1, bn.js@npm:^5.2.0":
   version: 5.2.0
   resolution: "bn.js@npm:5.2.0"
   checksum: 6117170393200f68b35a061ecbf55d01dd989302e7b3c798a3012354fa638d124f0b2f79e63f77be5556be80322a09c40339eda6413ba7468524c0b6d4b4cb7a
@@ -2569,6 +2616,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"buffer-layout@npm:^1.2.0":
+  version: 1.2.2
+  resolution: "buffer-layout@npm:1.2.2"
+  checksum: e5809ba275530bf4e52fd09558b7c2111fbda5b405124f581acf364261d9c154e271800271898cd40473f9bcbb42c31584efb04219bde549d3460ca4bafeaa07
+  languageName: node
+  linkType: hard
+
 "buffer-xor@npm:^1.0.3":
   version: 1.0.3
   resolution: "buffer-xor@npm:1.0.3"
@@ -2586,6 +2640,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"buffer@npm:6.0.3, buffer@npm:^6.0.3, buffer@npm:~6.0.3":
+  version: 6.0.3
+  resolution: "buffer@npm:6.0.3"
+  dependencies:
+    base64-js: ^1.3.1
+    ieee754: ^1.2.1
+  checksum: 5ad23293d9a731e4318e420025800b42bf0d264004c0286c8cc010af7a270c7a0f6522e84f54b9ad65cbd6db20b8badbfd8d2ebf4f80fa03dab093b89e68c3f9
+  languageName: node
+  linkType: hard
+
 "buffer@npm:^5.5.0":
   version: 5.7.1
   resolution: "buffer@npm:5.7.1"
@@ -2593,16 +2657,6 @@ __metadata:
     base64-js: ^1.3.1
     ieee754: ^1.1.13
   checksum: e2cf8429e1c4c7b8cbd30834ac09bd61da46ce35f5c22a78e6c2f04497d6d25541b16881e30a019c6fd3154150650ccee27a308eff3e26229d788bbdeb08ab84
-  languageName: node
-  linkType: hard
-
-"buffer@npm:^6.0.3, buffer@npm:~6.0.3":
-  version: 6.0.3
-  resolution: "buffer@npm:6.0.3"
-  dependencies:
-    base64-js: ^1.3.1
-    ieee754: ^1.2.1
-  checksum: 5ad23293d9a731e4318e420025800b42bf0d264004c0286c8cc010af7a270c7a0f6522e84f54b9ad65cbd6db20b8badbfd8d2ebf4f80fa03dab093b89e68c3f9
   languageName: node
   linkType: hard
 
@@ -3123,7 +3177,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"crypto-hash@npm:^1.2.2":
+"crypto-hash@npm:^1.2.2, crypto-hash@npm:^1.3.0":
   version: 1.3.0
   resolution: "crypto-hash@npm:1.3.0"
   checksum: a3a507e0d2b18fbd2da8088a1c62d0c53c009a99bbfa6d851cac069734ffa546922fa51bdd776d006459701cdda873463e5059ece3431aca048fd99e7573d138
@@ -3563,6 +3617,13 @@ __metadata:
   version: 5.1.0
   resolution: "dotenv-expand@npm:5.1.0"
   checksum: 8017675b7f254384915d55f9eb6388e577cf0a1231a28d54b0ca03b782be9501b0ac90ac57338636d395fa59051e6209e9b44b8ddf169ce6076dffb5dea227d3
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:10.0.0":
+  version: 10.0.0
+  resolution: "dotenv@npm:10.0.0"
+  checksum: f412c5fe8c24fbe313d302d2500e247ba8a1946492db405a4de4d30dd0eb186a88a43f13c958c5a7de303938949c4231c56994f97d05c4bc1f22478d631b4005
   languageName: node
   linkType: hard
 
