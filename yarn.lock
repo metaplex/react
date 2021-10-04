@@ -675,10 +675,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@metaplex/react@workspace:."
   dependencies:
-    "@metaplex/js": ^1.0.0
     "@commitlint/cli": ^13.2.0
     "@commitlint/config-conventional": ^13.2.0
-    "@metaplex/js": "link:../metaplex-js/api"
+    "@metaplex/js": ^1.0.0
     "@solana/wallet-adapter-base": ^0.6.0
     "@solana/wallet-adapter-react": ^0.12.2
     "@solana/wallet-adapter-wallets": ^0.10.0
