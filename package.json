@@ -6,7 +6,7 @@
     "/dist",
     "/src"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "Metaplex React SDK",
   "keywords": [

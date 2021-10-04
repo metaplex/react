@@ -14,7 +14,7 @@ node_modules/
 .eslintcache
 
 # Build and test
-dist/
+dist/*
 build/
 lib/
 coverage/
