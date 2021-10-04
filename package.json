@@ -18,7 +18,7 @@
   "author": "Metaplex Maintainers <contact@metaplex.com>",
   "homepage": "https://metaplex.com",
   "repository": {
-    "url": "https://github.com/metaplex/js.git"
+    "url": "https://github.com/metaplex/react.git"
   },
   "scripts": {
     "prebuild": "rimraf dist",
