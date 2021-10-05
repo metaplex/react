@@ -6,7 +6,8 @@ export const useMetaplex = () => {
   const [wallet, setWallet] = useState<Wallet>();
 
   const provider = useMemo(() => {
-    Metaplex.init(connection, wallet);
+    Metaplex.init(connection,
+       wallet);
     return Metaplex.getProvider();
   }, [connection, wallet]);
 
