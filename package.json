@@ -68,11 +68,6 @@
       "yarn fix", "git add"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "browserslist": [
     "defaults",
     "not IE 11",
