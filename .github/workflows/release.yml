@@ -20,6 +20,8 @@ jobs:
       run: yarn install --immutable
     - name: Install semantic-release extra plugins
       run: yarn add -D @semantic-release/changelog @semantic-release/git
+    - name: Lint
+      run: yarn lint && yarn prettier
     - name: Build
       run: yarn build
     - name: Release
