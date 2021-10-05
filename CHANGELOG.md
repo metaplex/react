@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/metaplex/react/compare/v1.0.1...v1.0.2) (2021-10-05)
+
+
+### Bug Fixes
+
+* update yarn.lock ([#10](https://github.com/metaplex/react/issues/10)) ([2a4bba8](https://github.com/metaplex/react/commit/2a4bba8d23c42e1a2014eb7edc555a3b8d3531de))
+
 ## [1.0.1](https://github.com/metaplex/react/compare/v1.0.0...v1.0.1) (2021-10-04)
 
 
