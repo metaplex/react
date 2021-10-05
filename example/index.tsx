@@ -8,7 +8,7 @@ import { useMetaplex } from '../src';
 const View = () => {
   const { wallet, connect, connected, select, adapter } = useWallet();
   const anchorWallet = useAnchorWallet();
-  const { connection, setWallet } = useMetaplex();
+  const { setWallet } = useMetaplex();
 
   useEffect(() => {
     // TODO: update to wallet adapter
